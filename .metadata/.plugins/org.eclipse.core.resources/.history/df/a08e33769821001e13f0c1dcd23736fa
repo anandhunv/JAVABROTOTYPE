@@ -1,0 +1,13 @@
+package Inheritance;
+
+public class inheritance2 extends inheritance1{
+	public static void main(String[] args) {
+		
+
+
+    int c=20;
+    int d=40;
+    
+    System.out.println("sum\="+c);
+}
+}

@@ -1,0 +1,12 @@
+package calc;
+
+import javax.swing.JFrame;
+
+public class Calculator {
+	Calculator(){
+		JFrame jf=new JFrame(" Calculator");
+		jf.setLayout(null);
+		jf.setSize
+	}
+
+}

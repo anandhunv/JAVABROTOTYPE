@@ -1,0 +1,21 @@
+package calc;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class Calculator {
+	Calculator(){
+		JFrame jf=new JFrame("ONE + ONE =THREE"); //Heading & window//
+		jf.setLayout(null);
+		jf.setSize(1500, 600);
+		jf.setVisible(true);
+		jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//CALCULTOR CLOSE CHEYUMBO PROGRAM RUN CHEYUNATH STOP CHEYAN USE CHEYUNATH//
+		jf.setLocation(500,600);
+		JLabel displayLabel=new JLabel();
+	}
+	public static void main(String[] args) {
+		new Calculator()    ;     // Calculator S=new Calculator(); instead of this new calculator();//
+		
+	}
+
+}

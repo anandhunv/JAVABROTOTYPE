@@ -1,0 +1,36 @@
+package calc;
+
+import java.awt.Color;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.SwingConstants;
+
+public class Calculator {
+	Calculator(){
+		JFrame jf=new JFrame("ONE + ONE =THREE"); //Heading & window//
+		jf.setLayout(null);
+		jf.setSize(500, 500);//width&height of window\\
+		
+		jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//CALCULTOR CLOSE CHEYUMBO PROGRAM RUN CHEYUNATH STOP CHEYAN USE CHEYUNATH//
+		jf.setLocation(300,150);//to move the frame anywhere of the screen//
+		JLabel displayLabel=new JLabel("where are you label?");//for display values//
+		displayLabel.setBounds(30, 50, 540, 40);//WIDTH,HEIGHT,MOVEMENT FROM TOP-TO-BOTTOM IN ONE SYNTAX//
+		displayLabel.setBackground(Color.GRAY);//to give color//
+		displayLabel.setOpaque(true);//set the opaque true for display color//
+		displayLabel.setHorizontalAlignment(SwingConstants.RIGHT);
+		jf.add(displayLabel);
+		JButton jb=new JButton("ok");
+		jb.setBounds(30, 50, 540, 40);
+		jb.setBackground(Color.cyan);
+		jb.setOpaque(true);
+		jf.setVisible(true);//to visible the window\\
+		
+	}
+	public static void main(String[] args) {
+		new Calculator()    ;     // Calculator S=new Calculator(); instead of this new calculator();//
+		
+	}
+
+}

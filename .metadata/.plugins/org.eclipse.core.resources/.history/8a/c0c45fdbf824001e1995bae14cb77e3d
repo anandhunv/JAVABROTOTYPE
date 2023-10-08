@@ -1,0 +1,17 @@
+package calc;
+
+import javax.swing.JFrame;
+
+public class Calculator {
+	Calculator(){
+		JFrame jf=new JFrame(" Calculator"); //Heading & window//
+		jf.setLayout(null);
+		jf.setSize(500, 600);
+		jf.setVisible(true);
+	}
+	public static void main(String[] args) {
+		new Calculator()    ;     // Calculator S=new Calculator(); instead of this new calculator();//
+		
+	}
+
+}
